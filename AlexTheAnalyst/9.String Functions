@@ -1,0 +1,14 @@
+-- String Functions
+
+SELECT LENGTH('skyfall');
+
+SELECT first_name, LENGTH(first_name)
+FROM employee_demographics
+ORDER BY 2;
+
+SELECT UPPER('sky');
+
+SELECT LOWER('sKy');
+
+SELECT first_name, UPPER(first_name)
+FROM employee_demographics
