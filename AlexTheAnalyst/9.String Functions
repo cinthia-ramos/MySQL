@@ -12,3 +12,9 @@ SELECT LOWER('sKy');
 
 SELECT first_name, UPPER(first_name)
 FROM employee_demographics
+
+SELECT TRIM('                 SKY            ');
+
+SELECT LTRIM('                 SKY            ');
+
+SELECT RTRIM('                 SKY            ');
