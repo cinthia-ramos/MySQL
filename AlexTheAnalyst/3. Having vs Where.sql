@@ -1,4 +1,4 @@
--- Having vs Where
+-- Having vs Where t
 
 SELECT gender, AVG(age)
 FROM employee_demographics
