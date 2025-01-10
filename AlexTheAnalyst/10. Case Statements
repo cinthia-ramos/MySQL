@@ -1,0 +1,14 @@
+--Case Statements
+
+SELECT *
+FROM employee_demographics;
+
+SELECT first_name,
+last_name,
+age,
+CASE
+    WHEN age <= 30 Then 'Young'
+    WHEN age BETWEEN 31 and 50 THEN 'Old'
+    WHEN age >= 50 THEN "On Death's Door"
+END AS Age_Bracket
+FROM employee_demographics;
