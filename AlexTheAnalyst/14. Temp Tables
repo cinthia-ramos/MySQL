@@ -1,0 +1,3 @@
+-- Temporary Tables
+
+CREATE TEMPORARY TABLE temp_table
